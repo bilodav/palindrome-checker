@@ -122,13 +122,13 @@ body{ background-color:#0a0a23}
 }
 img {height: 450px;
 color:#fff;
-margin-bottom: 0px
+margin-top: -50px
 }
 
 h1{
   font-size:3rem;
   color:#FFF;
-  margin-top:-80px
+  margin-top:-150px
 
 }
 
@@ -139,7 +139,8 @@ h1{
   border: 1px #000 solid;
   padding: 10px 50px;
   box-shadow: 5px 5px 10px 5px lightblue;
-  min-height:220px
+  min-height:220px;
+  margin-top: -50px;
 }
 
 .static-text {
@@ -199,7 +200,7 @@ button:hover{
   border-radius: 10px;
   border: 1px #000 solid;
   padding: 5px 20px;
-  margin-top: 90px;
+  margin-top: 50px;
   box-shadow: 5px 5px 10px 5px lightblue;
   background-color:#0b232d;
 
