@@ -4,7 +4,7 @@ const resultDisplay =document.getElementById("result");
 
 const checkString = () =>{
 const inputText = document.getElementById("text-input").value;
-const regex = /[\s-'),_.(-"/]+/g ;
+const regex = /[\s-'),_.(-/]+/g ;
 const lowerString = inputText.toLowerCase();
 const finalString = lowerString.replace(regex, "");
 const arrayChars = finalString.split("");
